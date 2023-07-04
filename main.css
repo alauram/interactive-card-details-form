@@ -186,6 +186,9 @@ button {
     text-transform: uppercase;
     letter-spacing: 5px;
 }
+button:hover {
+    background: linear-gradient(80deg, rgba(100,72,254,1) 19%, rgba(96,5,148,1) 76%);
+}
 @media screen and (max-width:600px){
     body {
         background-image: url(./images/bg-main-mobile.png);
