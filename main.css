@@ -217,7 +217,7 @@ button {
         visibility: visible;
     }
     .card-number {
-        width: 80%;
+        width: 100%;
         font-size: 1rem;
     }
     .logo {
@@ -237,6 +237,15 @@ button {
         left: 20%;
         z-index: -1;
         padding-right: 30px;
+    }
+    .date-cvc {
+        width: 100%;
+    }
+    .date-input {
+        min-width: 30%;
+    }
+    .cvc-input input{
+        width: 100%;
     }
     .cvc {
         left: 72%;
